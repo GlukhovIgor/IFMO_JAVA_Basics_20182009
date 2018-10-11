@@ -41,7 +41,6 @@ public class WarAndPeaceExercise {
                 .sorted(comp)
                 .map(pair -> pair.getKey() + " - " + pair.getValue())
                 .collect(Collectors.joining("\n"));
-        //System.out.println(result);
         return result;
     }
 }
